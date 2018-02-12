@@ -2,8 +2,8 @@
 layout: _pages/post
 title: Tic-Tac-Toe
 date: '2018-02-12'
-link: 'https://andersclso.github.io/FCC-Calculator/'
-code: 'https://github.com/andersclso/FCC-Calculator'
+link: 'https://andersclso.github.io/FCC-Tic-Tac-Toe/'
+code: 'https://github.com/andersclso/FCC-Tic-Tac-Toe'
 program: Freecodecamp - Front End Development Certification
 course: Advanced Front End Development Projects
 project: 03 - Build a Tic-Tac-Toe game with AI opponent
