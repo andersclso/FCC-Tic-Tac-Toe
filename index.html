@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tic-Tac-Toe</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/ttt.js"></script>
+</head>
+<body>
+	<div id="boardContainer">
+		<div id="board">
+			<div id="0" class="square"></div>
+			<div id="1" class="square"></div>
+			<div id="2" class="square"></div>
+			<div id="3" class="square"></div>
+			<div id="4" class="square"></div>
+			<div id="5" class="square"></div>
+			<div id="6" class="square"></div>
+			<div id="7" class="square"></div>
+			<div id="8" class="square"></div>
+		</div>
+		
+		<div class="configure">
+			<label class="switch">
+				<input id="one" class="AI-Switch" type="checkbox" name="switch">
+				<span class="slider round"></span>
+			</label>
+			
+			<div class="pvpDisplay">
+				<span id="p1" class="player 1 vs">Player X</span>
+				<span class="vs">vs</span>
+				<span id="p2" class="player 2 vs">Player O</span>
+			</div>
+
+			<label class="switch">
+				<input id="two" class="AI-Switch" type="checkbox" name="switch">
+				<span class="slider round"></span>
+			</label>
+		</div>
+
+		<div class="scoreboard">
+			<span id="score1" class="scores">0</span>
+			<span>-</span>
+			<span id="score2" class="scores">0</span>
+		</div>
+
+		<div class="startResetContainer">
+			<span class="startReset startText">reset</span>
+			<span class="startReset startText">start</span>
+		</div>
+
+		<div class="startResetButtons">
+			<button id="resetButton" class="reset"></button>
+			<button id="startButton" class="start"></button>
+		</div>
+	</div>
+</body>
+</html>
